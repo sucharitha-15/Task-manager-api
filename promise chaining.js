@@ -23,5 +23,5 @@ const func = async () =>{
 func().then( (user)=>{
   console.log(user);
 }).catch((err) => {
-  console.log("error" + err);
+  console.log("Error" + err);
 });

@@ -5,5 +5,5 @@ appcontroller(app);
 
 var port = process.env.PORT ;
 app.listen(port ,() => {
-console.log("server is running" +  process.env.PORT)}
+console.log("Server is running." +  process.env.PORT)}
 );

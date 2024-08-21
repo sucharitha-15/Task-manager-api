@@ -9,7 +9,7 @@ const msg = {
   to: reciever,
   from: 'jainsanyamco@gmail.com',
   subject: subject,
-  text: 'WhatsUP kiddo?',
+  text: 'What's up??',
   html: '<strong style="color:magenta;">' + body + '</strong>',
 };
 sgMail.send(msg);
